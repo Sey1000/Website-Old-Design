@@ -20,6 +20,7 @@ header {
 a {
 	display: inline-block;
 	text-decoration: none;
+	color: #191919;
 }
 
 a:visited {
