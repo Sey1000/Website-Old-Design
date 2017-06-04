@@ -1,6 +1,27 @@
 @import url("components/navbar.css");
+@import url("components/avatar.css");
 
 body {
 	margin: 0;
-	padding: 5vh 0 0 0;
+	padding: 60px 0 0 0;
+}
+
+/*move to banner.css later*/
+.banner {
+	margin: 30px;
+	border: 1.5px dotted grey;
+	border-radius: 50px;
+	height: 50vh;
+	min-height: 240px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.short-intro {
+	height: 40vh;
+	width: 60vw;
+	min-height: 200px;
+	border: 1px solid grey;
 }
