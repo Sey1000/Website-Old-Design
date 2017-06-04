@@ -43,6 +43,12 @@ a:visited {
 	background-color: #CCCCCC;
 }
 
-.navlinks>a {
+.navlinks a {
 	padding: 0 1.5vw;
+}
+
+.nav-hover:hover {
+	line-height: 60px;
+	position: relative;
+	bottom: 2px;
 }
