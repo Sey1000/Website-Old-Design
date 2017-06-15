@@ -1,0 +1,29 @@
+.banner {
+	margin: 30px 10vw;
+	/*border: 1.5px dotted grey;*/
+	/*border-radius: 50px;*/
+	height: 50vh;
+	min-height: 240px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.short-intro {
+	box-sizing: border-box;
+	padding: 15px;
+	height: 40vh;
+	width: 60%;
+	margin
+	min-height: 180px;
+	font-family: "Lato", sans-serif;
+}
+
+.short-intro h2 {
+	font-size: 3em;
+}
+
+.short-intro p {
+	font-size: 1.5em;
+}
