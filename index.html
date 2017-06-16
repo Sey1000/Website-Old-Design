@@ -4,13 +4,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Barrio|Roboto+Condensed|Lato" rel="stylesheet">
 	<script src="https://use.fontawesome.com/dee9e81b3d.js"></script>
 	<link rel="icon" type="image/x-icon" href="images/catfav.png">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css"> -->
+	<link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<title>Sey in Tech</title>
 </head>		
 <body>
-	<header>
+	<header class="row">
+
+
+
 		<div class="navbrand">
 			<h1>
 			<a href="index.html">Sey<span class="sans-serifify"> in </span>Tech</a>
@@ -22,34 +26,53 @@
 			<a href="#" class="nav-hover">CONTACT</a>
 		</div>
 	</header>
-	<section class="banner">
-		<div class="pic">
-			<img src="images/ProfileSquare.jpg" alt="profile picture" class="avatar">
+
+
+	<div class="container-fluid">
+		<div class="row middle-xs banner">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-3">
+				<div class="pic">
+					<img src="images/ProfileSquare.jpg" alt="profile picture" class="avatar">
+				</div>
+			</div>
+			<div class="col-sm-7">
+				<div class="short-intro">
+				<h2>Hi, my name is Sey. Welcome!</h2>
+				<p>I'm learning some programming, and this page is my playground for newly learned front-end skills.</p>
+				<p>Checkout what I learn and do <i class="fa fa-arrow-down" aria-hidden="true"></i></p>
+				</div>
+			</div>
+			<div class="col-sm-1"></div>
+			
 		</div>
-		<div class="short-intro">
-			<h2>Hi, my name is Sey. Welcome!</h2>
-			<p>I'm learning some programming, and this page is my playground for newly learned front-end skills.</p>
-			<p>Checkout what I learn and do <i class="fa fa-arrow-down" aria-hidden="true"></i></p>
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="placeholder">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aperiam sed minima quis quidem velit quisquam laudantium optio voluptatibus ullam sint repellendus, eius voluptas nobis libero numquam illo, vero adipisci. This is placeholder for project cards</p>
+			</div>
+			
 		</div>
-	</section>
-	<section>
-		<p class="placeholder">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aperiam sed minima quis quidem velit quisquam laudantium optio voluptatibus ullam sint repellendus, eius voluptas nobis libero numquam illo, vero adipisci. This is placeholder for project cards</p>
-	</section>
-	<footer>
-		<p>&copy; Sey</p>
-		<ul>
-			<li>
-				<a href="#">
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-				</a>
-			  
-			</li>
-			<li>
-				<a href="https://github.com/Sey1000" target="_blank">
-					<i class="fa fa-github" aria-hidden="true"></i>
-				</a>
-			</li>
-		</ul>
-	</footer>
+
+
+	<div class="row">
+		<footer class="col-xs-12">
+			<p>&copy; Sey</p>
+			<ul>
+				<li>
+					<a href="#">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				  
+				</li>
+				<li>
+					<a href="https://github.com/Sey1000" target="_blank">
+						<i class="fa fa-github" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</div>
+	</div>
+	
  </body>
 </html>
