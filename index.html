@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Barrio|Roboto+Condensed|Lato" rel="stylesheet">
 	<script src="https://use.fontawesome.com/dee9e81b3d.js"></script>
 	<link rel="icon" type="image/x-icon" href="images/catfav.png">
-<!-- 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css"> -->
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Bootstrap js -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- flexboxgrid -->
 	<link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Sey in Tech</title>
@@ -12,7 +20,31 @@
 <body>
 
 <!-- navigation -->
-	<header class="row">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      	</button>
+				<a href="#" class="navbar-brand">Sey<span class="sans-serifify"> in </span>Tech</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">HOME</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>	
+			</div>
+			
+		</div>
+	</nav>
+
+
+
+
+<!-- 	<header class="row">
 		<div class="navbrand">
 			<h1>
 			<a href="index.html">Sey<span class="sans-serifify"> in </span>Tech</a>
@@ -24,7 +56,7 @@
 			<a href="#" class="nav-hover">CONTACT</a>
 		</div>
 	</header>
-
+ -->
 	<div class="container-fluid">
 
 <!-- banner -->

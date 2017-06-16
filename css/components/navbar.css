@@ -1,55 +1,38 @@
-header {
-	position: fixed;
-	min-width: 300px;
-	top: 0;
-	height: 60px;
-	line-height: 60px;
-	width: 100vw;
+.navbar-default {
 	background-color: #E6E6E6;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	padding: 0 5vw;
 }
 
-.navbrand h1{
-	margin-left: 10vw;
-	font-size: 2.2rem;
-	font-family: 'Barrio', cursive;
+.navbar-default .navbar-header .navbar-brand {
 	color: #191919;
+	font-size: 2.4em;
+	font-family: 'Barrio', cursive;
 }
 
-.sans-serifify {
+.navbar-default .navbar-header .navbar-brand .sans-serifify {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #666666;
-	font-size: 1.2rem;
+	font-size: 0.7em;
 }
 
-a {
-	display: inline-block;
-	text-decoration: none;
+.navbar-default .navbar-nav > li > a {
 	color: #191919;
-}
-
-a:visited {
-	color: #191919;
-}
-
-.navlinks {
-	margin-right: 5vw;
-	font-size: 1rem;
 	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5rem;
 }
 
-.navlinks .current-tab {
-	background-color: #CCCCCC;
-}
+.navbar-default .navbar-nav > .active{
+	background-color: #cccccc;
+	color: #191919;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5rem;
+ }
 
-.navlinks a {
-	padding: 0 1.5vw;
-}
-
-.nav-hover:hover {
-	line-height: 60px;
-	position: relative;
-	bottom: 2px;
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #cccccc;
+    color: #191919;
+   	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5rem;
 }
