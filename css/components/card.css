@@ -1,0 +1,20 @@
+.card {
+	box-sizing: border-box;
+	height: 250px;
+	margin-bottom: 25px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+	background-size: cover;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: monospace;
+	font-size: 1.5em;
+	border-radius: 20px;
+}
+
+.card:hover {
+	position: relative;
+	bottom: 5px;
+	box-shadow: 5px 5px 3px #888888;
+}
