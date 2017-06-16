@@ -1,5 +1,6 @@
 header {
 	position: fixed;
+	min-width: 300px;
 	top: 0;
 	height: 60px;
 	line-height: 60px;
@@ -12,7 +13,7 @@ header {
 
 .navbrand h1{
 	margin-left: 10vw;
-	font-size: 3.5rem;
+	font-size: 2.2rem;
 	font-family: 'Barrio', cursive;
 	color: #191919;
 }
@@ -20,7 +21,7 @@ header {
 .sans-serifify {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #666666;
-	font-size: 2rem;
+	font-size: 1.2rem;
 }
 
 a {
@@ -35,7 +36,7 @@ a:visited {
 
 .navlinks {
 	margin-right: 5vw;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
