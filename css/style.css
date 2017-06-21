@@ -8,16 +8,12 @@ body {
 	padding: 0;
 }
 
-/*move to banner.css later*/
-
-
-.placeholder {
-	margin: 0 10vw;
-	font-size: 40px;
-	font-weight: lighter;
-	color: #E6E6E6;
+a:hover {
+	text-decoration: none !important;
 }
 
+
+/* footer */
 footer {
 	font-family: monospace;
 	font-size: 20px;

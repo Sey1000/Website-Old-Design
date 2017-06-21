@@ -1,21 +1,64 @@
 .card {
 	box-sizing: border-box;
-	height: 250px;
-	max-width: 450px;
+	height: 150px;
+	max-width: 550px;
 	margin: 15px 15px 25px 15px;
-	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
-	background-size: cover;
-	color: white;
+	color: #333;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	font-family: monospace;
 	font-size: 1.5em;
-	border-radius: 25px;
+	border-radius: 10px;
+	border: 1px dotted grey;
+	background-color: ;
 }
 
 .card:hover {
 	position: relative;
 	bottom: 5px;
-	box-shadow: 5px 5px 3px #888888;
+	box-shadow: 5px 5px 3px #bbb;
+}
+
+.cardIcon {
+	/*border: 1px solid #ddd;*/
+	height: 120px;
+	width: 120px;
+	margin: 10px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardDescription {
+	/*border: 1px solid #eee;*/
+	height: 120px;
+	margin: 10px;
+	padding: 5px;
+	flex: 1;
+	
+}
+
+.cardDescription h4 {
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.cardDescription p {
+	font-family: monospace;
+	font-size: 13px;
+}
+
+#icon-bootstrap {
+	background-color: #563D7C;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	font-size: 90px;
+	color: #F9F9F9;
+}
+
+.cardIcon-Logo {
+	width: 110px;
 }
