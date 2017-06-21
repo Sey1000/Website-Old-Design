@@ -56,10 +56,13 @@
 }
 
 #icon-bootstrap {
+	height: 110px;
+	width: 110px;
+	margin: 15px;
 	background-color: #563D7C;
 	font-family: "Helvetica Neue";
 	font-weight: bold;
-	font-size: 90px;
+	font-size: 80px;
 	color: #F9F9F9;
 }
 
