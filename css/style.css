@@ -27,3 +27,6 @@ footer li {
 	display: inline-block;
 }
 
+.targetDiv {
+	height: 50px;
+}

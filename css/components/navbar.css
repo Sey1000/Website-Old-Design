@@ -39,9 +39,11 @@
 
 /*portfolioNav*/
 #portfolioNav {
-	border: 1px dashed #C05746;
-	box-sizing: border-box;
+/*	border: 1px dashed #C05746;
+*/	box-sizing: border-box;
 	top: 80px;
+	position: fixed;
+	right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-family: "Lato", sans-serif;
@@ -51,4 +53,5 @@
 #portfolioNav ul li a{
 	padding: 8px 10px;
 	color: #333;
+	border: 1px solid #C05746;
 }
