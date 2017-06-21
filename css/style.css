@@ -26,6 +26,8 @@ footer {
 }
 
 footer li {
+	color: black;
 	list-style: none;
 	display: inline-block;
 }
+
