@@ -37,6 +37,11 @@
 	font-size: 1.5rem;
 }
 
+.dropdown-title {
+	margin-left: 8px;
+	font-weight: bold;
+}
+
 /*portfolioNav*/
 #portfolioNav {
 /*	border: 1px dashed #C05746;
