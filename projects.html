@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css" >
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/script.js"></script>
-  <title>Sey in Tech</title>
+  <script type="text/javascript" src="js/memeGen.js"></script>
+  <title>Sey in Tech - Projects</title>
 </head>
 <body>
 
@@ -40,7 +41,7 @@
             <i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <ul class="dropdown-menu">
               <li class="dropdown-title">jQuery</li>
-              <li><a href="jQueryProjects/memeGenerator.html" target="_blank">Meme Generator</a></li>
+              <li><a href="projects.html#targetMemeGen">Meme Generator</a></li>
             </ul>
           </li>
           <li><a href="contact.html">CONTACT</a></li>
@@ -49,10 +50,59 @@
       
     </div>
   </nav>
-  
+
   <div class="container-fluid">
-  <div class="row" style="height: 100px"></div>
+    
+<!-- content & navpills -->
+    <div class="row">
+      <!-- content -->
+      <div class="col-xs-9 col-md-10 col-lg-11">
+        <div class="targetDiv" id="targetjQuery"></div>
+        <div class="targetDiv" id="targetMemeGen"></div>
+        <h2>jQuery - Meme Generator</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
+            <img id="memeImg" src="images/One-Does-Not-Simply.jpg" alt="" style="align-self: center;"> 
+            <h2 class="words-top">One does not simply</h2>
+            <h2 class="words-bottom">Generate memes</h2>
+          </div>
+          <div class="col-xs-12 col-md-5 col-lg-4 col-xl-4">
+            <h3>Generate!</h3>
+
+            <form role="form">
+              <div class="form-group">
+                <label>Image URL</label>
+                <input id="image-url" type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Top text</label>
+                <input id="top-text" type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Bottom text</label>
+                <input id="bottom-text" type="text" class="form-control">
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+      
+
+      <!-- navpills -->
+      <div class="col-xs-3 col-md-2 col-lg-1" id="languageSideNav">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#targetBootstrap">Bootstrap</a></li>
+          <li><a href="#targetjQuery">jQuery</a></li>
+          <li><a href="#targetPython">Python</a></li>
+          <li><a href="#targetHTMLCSS">HTML/CSS</a></li>
+          <li><a href="#targetCS">CS stuff</a></li>
+        </ul>        
+      </div>
+    </div>
+
 <!-- footer -->
+    <div class="row" style="height: 100px"></div>
     <div class="row footer">
       <footer class="col-xs-12">
         <p>&copy; Sey</p>
@@ -77,6 +127,7 @@
       </footer>
     </div>
   </div>
+
 
 </body>
 </html>
