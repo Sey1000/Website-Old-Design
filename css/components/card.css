@@ -75,3 +75,54 @@
 .cardIcon-Logo {
 	width: 110px;
 }
+
+/* learning.html */
+
+.lerningimg-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.projectCard {
+	height: 280px;
+	min-width: 300px;
+	margin: 15px 15px 25px 15px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	/*border: 1px dotted grey;*/
+	border-radius: 10px;
+	color: #333;
+	background-image: url('../../images/subtle_background.png');
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.projectCard:hover {
+	position: relative;
+	bottom: 5px;
+	box-shadow: 0 9px 13px 0 rgba(0, 0, 0, 0.2), 0 11px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.projectImg {
+	/*border: 1px dotted green;*/
+	border-radius: 10px;
+	height: 180px;
+	width: 270px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.projectImg img {
+	width: inherit;
+	border-radius: 10px;
+}
+
+.projectDescription {
+	/*border: 1px dotted orange;*/
+	font-family: monospace;
+	font-size: 1.5em;
+}
+
