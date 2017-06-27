@@ -86,3 +86,14 @@ footer li {
 @media screen and (max-width: 350px) {
 	.words-top, .words-bottom { font-size: 1em; }
 }
+
+
+/* projects.html -- Invalid Form */
+
+#invalidForm {
+	padding: 5px 20px 30px 20px;
+}
+
+.errorMessage {
+	color: #BB4A47;
+}

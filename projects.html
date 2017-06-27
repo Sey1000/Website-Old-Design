@@ -15,8 +15,7 @@
   <!-- flexboxgrid -->
   <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css" >
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script type="text/javascript" src="js/script.js"></script>
-  <script type="text/javascript" src="js/memeGen.js"></script>
+  <script type="text/javascript" src="js/projects.js"></script>
   <title>Sey in Tech - Projects</title>
 </head>
 <body>
@@ -57,9 +56,15 @@
     <div class="row">
       <!-- content -->
       <div class="col-xs-9 col-md-10 col-lg-11">
+        
+        <!-- jQuery section starts here -->
         <div class="targetDiv" id="targetjQuery"></div>
+
+        <!-- "Meme Generator" starts here -->
         <div class="targetDiv" id="targetMemeGen"></div>
         <h2>jQuery - Meme Generator</h2>
+        <p>Meme looks better with landscape-oriented images<br>
+        (Next step: Make the meme downloadable)</p>
         <div class="row">
           <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
             <img id="memeImg" src="images/One-Does-Not-Simply.jpg" alt="" style="align-self: center;"> 
@@ -67,7 +72,7 @@
             <h2 class="words-bottom">Generate memes</h2>
           </div>
           <div class="col-xs-12 col-md-5 col-lg-4 col-xl-4">
-            <h3>Generate!</h3>
+            <h3 style="color: rgba(0, 0, 0, 0.4);">Try out!</h3>
 
             <form role="form">
               <div class="form-group">
@@ -85,6 +90,44 @@
             </form>
           </div>
         </div>
+
+        <!-- "Invalid Form Fill Messages" starts here -->
+        <div class="targetDiv" id="targetInvalidFormFill"></div>
+        <h2>jQuery - Invalid Form Fill Error Messages</h2>
+        <p>The "(not) Create Account" button <em>does not submit</em> the form. It is used only to show an error message when a section is not filled, or the password is too short.</p>
+        <p style="font-weight: 600">Try: Push the button without filling the form, or with a short password</p>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4" style="background-image: url('images/subtle_background.png')" id="invalidForm">
+            <h3 style="color: #804000">Some Form</h3>
+            <form role="form">
+              <div class="form-group">
+                <label for="firstName">First name</label>
+                <p class="first-name-error errorMessage"></p>
+                <input type="text" class="form-control" id="firstName">
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last name</label>
+                <p class="last-name-error errorMessage"></p>
+                <input type="text" class="form-control" id="lastName">
+              </div>
+              <div class="form-group">
+                <label for="username">Username</label>
+                <p class="username-error errorMessage"></p>
+                <input type="text" class="form-control" id="username">
+              </div>
+              <div class="form-group">
+                <label for="password" class="password-label">Password</label> 
+                <p class="password-error errorMessage"></p>
+                <input type="password" class="form-control" id="password">
+              </div>
+              <button type="button" id="notCreateAccount" class="btn btn-danger">(not) Create Account</button>
+            </form>
+
+          </div>
+
+
+        </div>
+
 
       </div>
       
