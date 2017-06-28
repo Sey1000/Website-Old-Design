@@ -40,8 +40,9 @@
             <i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <ul class="dropdown-menu">
               <li class="dropdown-title">jQuery</li>
-              <li><a href="projects.html#targetMemeGen">Meme Generator</a></li>
-              <li><a href="projects.html#targetInvalidFormFill">Form Error Messages</a></li>
+              <li><a href="#targetMemeGen">Meme Generator</a></li>
+              <li><a href="#targetInvalidFormFill">Form Error Messages</a></li>
+              <li><a href="#targetMessageThread">Message Thread</a></li>
             </ul>
           </li>
           <li><a href="contact.html">CONTACT</a></li>
@@ -125,8 +126,24 @@
             </form>
 
           </div>
+        </div>
 
-
+        <!-- "Message Thread" starts here -->
+        <div class="targetDiv" id="targetMessageThread"></div>
+        <h2>jQuery - Message Thread</h2>
+        <p><i class="fa fa-exclamation-circle" aria-hidden="true"></i> 'enter' key currently doesn't work as clicking send</p>
+        <p>Next step 1: fix above problem and make enter key = clicking send<br>
+        Next step 2: show a '...' bubble while typing</p>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4" id="messageThread">
+              <ul id="messages">
+                <li>Hello earth</li>
+                <li>I am here to tell you the answer to Life, the Universe and Everything</li>
+              </ul>
+              <form class="form">
+                <input id="newMessage" type="text" placeholder="say something">
+                <button type="button" class="btn btn-warning" id="messageButton">send</button>
+          </div>
         </div>
 
 

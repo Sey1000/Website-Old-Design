@@ -39,10 +39,11 @@
 
 .dropdown-title {
 	margin-left: 8px;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
-.dropdown-menu li {
+.dropdown .dropdown-menu li {
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*languageSideNav*/

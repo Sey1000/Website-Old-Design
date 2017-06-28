@@ -35,4 +35,14 @@ $(document).ready(function() {
 		}
 		return false;
 	});
+	// Message Thread
+	$('#messageButton').click(function() {
+		if($('#newMessage').val() != "") {
+			$('#messages').append($('<li>').text($('#newMessage').val()));
+			$('#newMessage').val("");
+			$("#messages").animate({ scrollTop: $('#messages').height() }, 1000);
+		}
+	});
+	
+	
 });
