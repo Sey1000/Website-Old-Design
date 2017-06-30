@@ -27,7 +27,7 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>
         </button>
         <a href="index.html" class="navbar-brand">Sey<span class="sans-serifify"> in </span>Tech</a>
       </div>
@@ -43,22 +43,24 @@
               <li><a href="#targetMemeGen">Meme Generator</a></li>
               <li><a href="#targetInvalidFormFill">Form Error Messages</a></li>
               <li><a href="#targetMessageThread">Message Thread</a></li>
+              <li class="dropdown-title">HTML5 &amp; CSS</li>
+              <li><a href="#targetPetInfo">Pet Info Form</a></li>
             </ul>
           </li>
           <li><a href="contact.html">CONTACT</a></li>
-        </ul> 
+        </ul>
       </div>
-      
+
     </div>
   </nav>
 
   <div class="container-fluid">
-    
+
 <!-- content & navpills -->
     <div class="row">
       <!-- content -->
       <div class="col-xs-9 col-md-10 col-lg-11">
-        
+
         <!-- jQuery section starts here -->
         <div class="targetDiv" id="targetjQuery"></div>
 
@@ -69,7 +71,7 @@
         (Next step: Make the meme downloadable)</p>
         <div class="row">
           <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
-            <img id="memeImg" src="images/One-Does-Not-Simply.jpg" alt="" style="align-self: center;"> 
+            <img id="memeImg" src="images/One-Does-Not-Simply.jpg" alt="" style="align-self: center;">
             <h2 class="words-top">One does not simply</h2>
             <h2 class="words-bottom">Generate memes</h2>
           </div>
@@ -118,7 +120,7 @@
                 <input type="text" class="form-control" id="username">
               </div>
               <div class="form-group">
-                <label for="password" class="password-label">Password</label> 
+                <label for="password" class="password-label">Password</label>
                 <p class="password-error errorMessage"></p>
                 <input type="password" class="form-control" id="password">
               </div>
@@ -155,12 +157,36 @@
         <p>&lt;Form> and &lt;Select> tag practice. Database not connected yet.</p>
         <form method="get">
           <h4>Tell us about your pet <i class="fa fa-paw" aria-hidden="true"></i></h4>
+          <label for="petName">Your pet's name</label>
+          <input id="petName" type="text" name="" value="">
+          <p></p>
+          <label for="petKind">What kind?</label>
+          <select id="petKind" class="" name="">
+            <option value="Cat">Cat</option>
+            <option value="Dog">Dog</option>
+            <option value="Furry">Other Furry</option>
+            <option value="nonFurry">Other Non-Furry</option>
+          </select>
+          <label for="petMale" style="margin-left: 15px"> Male </label>
+          <input id="petMale" type="radio" name="MF" value="Male">
 
+          <label for="petFemale" style="margin-left: 15px"> Female</label>
+          <input id="petFemale" type="radio" name="MF" value="Female">
+          <p></p>
+          <label for="petColor1">What's your pet's color? (Up to 3)</label>
+          <input id="petColor1" type="color" name="" value="#FFFFFF">
+          <input id="petColor1" type="color" name="" value="#FFFFFF">
+          <input id="petColor1" type="color" name="" value="#FFFFFF">
+          <p></p>
+          <label for="moreAboutPet">Tell us more about your pet!</label><br>
+          <textarea id="moreAboutPet" name="name" rows="6" cols="50"></textarea>
+          <p></p>
+          <input class="btn btn-success" type="submit" name="" value="(not) Submit">
         </form>
 
 
       </div>
-      
+
 
       <!-- navpills -->
       <div class="col-xs-3 col-md-2 col-lg-1" id="languageSideNav">
@@ -170,7 +196,7 @@
           <li><a href="#targetPython">Python</a></li>
           <li><a href="#targetHTMLCSS">HTML/CSS</a></li>
           <li><a href="#targetCS">CS stuff</a></li>
-        </ul>        
+        </ul>
       </div>
     </div>
 
@@ -184,7 +210,7 @@
             <a href="#">
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            
+
           </li>
           <li>
             <a href="https://github.com/Sey1000" target="_blank">

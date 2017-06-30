@@ -28,8 +28,8 @@
 	font-size: 1.5rem;
  }
 
- .navbar-default .navbar-nav > .active > a, 
- .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
  .navbar-default .navbar-nav > .active > a:focus {
     background-color: #cccccc;
     color: #191919;
@@ -39,12 +39,14 @@
 
 .dropdown-title {
 	margin-left: 8px;
+	margin-top: 5px;
 	font-weight: bolder;
 }
 
 .dropdown .dropdown-menu li {
 	font-family: 'Verdana', sans-serif;
 }
+
 
 /*languageSideNav*/
 #languageSideNav {
