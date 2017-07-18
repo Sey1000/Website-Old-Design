@@ -130,3 +130,10 @@ footer li {
 	margin: 10px 0;
 	background-color: rgba(255, 231, 76, 0.9);
 }
+
+#myJumbo {
+	padding-top: 100px;
+	text-align: center;
+	background-color: #E07A5F;
+	color: #3D405B;
+}
